@@ -1,6 +1,5 @@
 module.exports = {
-    root: true,
     extends: [
-        './index.js',
+        './rules/async-await.js',
     ],
 };
