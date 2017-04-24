@@ -93,11 +93,12 @@ module.exports = {
         'max-statements': ['off', 10],
         'max-statements-per-line': ['off', { max: 1 }],
         'multiline-ternary': ['off', 'always'],
-        'new-cap': ['error', {
+        // replaced by babel/new-cap
+        'new-cap': ['off', {
             newIsCap: true,
             newIsCapExceptions: [],
             capIsNew: true,
-            capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List'],
+            capIsNewExceptions: [],
             properties: true,
         }],
         'new-parens': 'error',
@@ -151,7 +152,8 @@ module.exports = {
             ObjectExpression: { minProperties: 0, multiline: true },
             ObjectPattern: { minProperties: 0, multiline: true },
         }],
-        'object-curly-spacing': ['error', 'always'],
+        // replaced by babel/object-curly-spacing
+        'object-curly-spacing': ['off', 'always'],
         'object-property-newline': ['error', {
             allowMultiplePropertiesPerLine: true,
         }],
@@ -163,7 +165,8 @@ module.exports = {
         'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
         quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
         'require-jsdoc': 'off',
-        semi: ['error', 'always'],
+        // replaced by babel/semi
+        semi: ['off', 'always'],
         'semi-spacing': ['error', { before: false, after: true }],
         'sort-keys': ['off', 'asc', { caseSensitive: false, natural: true }],
         'sort-vars': 'off',

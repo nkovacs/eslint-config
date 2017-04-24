@@ -43,7 +43,8 @@ module.exports = {
         }],
         'no-implicit-globals': 'off',
         'no-implied-eval': 'error',
-        'no-invalid-this': 'error',
+        // replaced by babel/no-invalid-this
+        'no-invalid-this': 'off',
         'no-iterator': 'error',
         'no-labels': ['error', { allowLoop: true, allowSwitch: true }],
         'no-lone-blocks': 'error',
