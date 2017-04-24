@@ -12,12 +12,17 @@ module.exports = {
         'html'
     ],
     extends: [
-        './rules/possible-errors.js',
-        './rules/style.js',
         './rules/ava.js',
+        './rules/best-practices.js',
+        './rules/es6.js',
         './rules/flowtype.js',
-        './rules/promise.js',
         './rules/imports.js',
+        './rules/node.js',
+        './rules/possible-errors.js',
+        './rules/promise.js',
+        './rules/style.js',
+        './rules/unicorn.js',
+        './rules/variables.js',
     ],
     // check if imports actually resolve
     'settings': {

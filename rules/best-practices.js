@@ -6,7 +6,7 @@ module.exports = {
         'class-methods-use-this': ['error', {
             exceptMethods: [],
         }],
-        'complexity': 'off',
+        complexity: 'off',
         'consistent-return': 'error',
         curly: ['error', 'all'],
         'default-case': ['error', { commentPattern: '^(no default|do nothing)$' }],
@@ -111,4 +111,4 @@ module.exports = {
             exceptRange: true,
         }],
     },
-}
+};

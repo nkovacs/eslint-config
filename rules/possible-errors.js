@@ -37,4 +37,4 @@ module.exports = {
         'valid-jsdoc': 'warn',
         'valid-typeof': ['error', { requireStringLiterals: true }],
     },
-}
+};

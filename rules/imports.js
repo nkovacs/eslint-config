@@ -13,7 +13,7 @@ module.exports = {
         'import/resolver': {
             node: {
                 extensions: ['.js', '.json'],
-            }
+            },
         },
         'import/ignore': [
             'node_modules',
@@ -114,5 +114,5 @@ module.exports = {
         'import/no-unassigned-import': 'off',
         // Forbid named default exports.
         'import/no-named-default': 'error',
-    }
-}
+    },
+};
