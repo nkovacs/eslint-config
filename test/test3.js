@@ -33,3 +33,5 @@ console.log(MySuperHero.isSuperhero); // eslint-disable-line no-console
 
 const foo = function foo() {}
 ;[1].map(foo);
+
+console.log('unicorn'.green);

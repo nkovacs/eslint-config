@@ -5,6 +5,8 @@ module.exports = {
 	],
 }
 
+console.log('unicorn'.green)
+
 const x = 42
 switch (x) {
 case 42:
