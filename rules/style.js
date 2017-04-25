@@ -148,9 +148,10 @@ module.exports = {
         'no-unneeded-ternary': ['error', { defaultAssignment: false }],
         'no-whitespace-before-property': 'error',
         'nonblock-statement-body-position': 'off',
+        // TODO: enable error and enable consistent in eslint 4.0
         'object-curly-newline': ['off', {
-            ObjectExpression: { minProperties: 0, multiline: true },
-            ObjectPattern: { minProperties: 0, multiline: true },
+            ObjectExpression: { minProperties: 0, multiline: true /* , consistent: true */ },
+            ObjectPattern: { minProperties: 0, multiline: true /* , consistent: true */ },
         }],
         // replaced by babel/object-curly-spacing
         'object-curly-spacing': ['off', 'always'],
