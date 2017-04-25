@@ -34,5 +34,6 @@ module.exports = {
             mode: 'strict',
             align: 'value',
         }],
+        quotes: ['error', 'double', { avoidEscape: false, allowTemplateLiterals: true }],
     },
 };
