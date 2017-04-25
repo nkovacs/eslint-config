@@ -55,7 +55,12 @@ module.exports = {
             enforceConst: true,
             detectObjects: false,
         }],
-        'no-multi-spaces': 'error',
+        'no-multi-spaces': ['error', {
+            exceptions: {
+                Property: true,
+                ObjectTypeProperty: true,
+            },
+        }],
         'no-multi-str': 'error',
         'no-new': 'error',
         'no-new-func': 'error',
