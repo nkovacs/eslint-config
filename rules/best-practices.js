@@ -17,7 +17,7 @@ module.exports = {
         'no-alert': 'warn',
         'no-caller': 'error',
         'no-case-declarations': 'error',
-        'no-div-regex': 'off',
+        'no-div-regex': 'error',
         'no-else-return': 'error',
         'no-empty-function': ['error', {
             allow: [
