@@ -4,7 +4,8 @@ module.exports = {
     ],
     // the recommended promise config has too many warnings, only include errors.
     rules: {
-        'promise/always-return': 'error',
+        // Too many false positives.
+        // 'promise/always-return': 'error',
         'promise/no-return-wrap': 'error',
         'promise/param-names': 'error',
         'promise/catch-or-return': 'error',
