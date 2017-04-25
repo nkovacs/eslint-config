@@ -1,5 +1,5 @@
 {
-  "name": "my-eslint-config",
+  "name": "eslint-config-nkovacs",
   "version": "1.0.0",
   "description": "My ESLint config",
   "main": "index.js",
