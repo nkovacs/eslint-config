@@ -96,7 +96,7 @@ module.exports = {
             allowTaggedTemplates: false,
         }],
         'no-unused-labels': 'error',
-        'no-useless-call': 'off',
+        'no-useless-call': 'error',
         'no-useless-concat': 'error',
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
