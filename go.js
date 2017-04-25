@@ -28,5 +28,11 @@ module.exports = {
         }],
         'no-tabs': 'off',
         'babel/semi': ['error', 'never'],
+        'key-spacing': ['error', {
+            beforeColon: false,
+            afterColon: true,
+            mode: 'strict',
+            align: 'value',
+        }],
     },
 };

@@ -1,5 +1,5 @@
 module.exports = {
-	root: true,
+	root:    true,
 	extends: [
 		'../../go.js',
 	],
@@ -18,3 +18,12 @@ case 47:
 default:
 	console.log('something else')
 }
+
+export const foo = {
+	A:    1,
+	Bbee: 2,
+
+	C: 3,
+}
+
+export const foo2 = { A: 1, Bbee: 2, C: 3 }
