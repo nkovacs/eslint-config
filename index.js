@@ -1,6 +1,5 @@
 module.exports = {
     extends: [
-        './rules/ava.js',
         './rules/babel.js',
         './rules/best-practices.js',
         './rules/es6.js',
